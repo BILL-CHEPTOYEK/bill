@@ -101,7 +101,7 @@ export default function CitizenHomePage() {
           I craft web applications and UI experiments that emphasize accessibility, performance and visual polish. Below are highlights from my work — open-source tools, product interfaces and prototypes that solve real problems.
         </p>
       </section>
-      {/* Work Experience (placed directly under th  */}
+      {/* Work Experience (placed directly under t  */}
       <section id="experience" className="w-full py-12 px-4 sm:px-6 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-extrabold text-blue-900 mb-8 font-poppins">Work Experience</h2>
