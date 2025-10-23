@@ -98,7 +98,7 @@ export default function CitizenHomePage() {
           className="text-base md:text-lg font-inter text-center text-white font-normal leading-relaxed opacity-95 max-w-4xl mx-auto mb-0"
         >
           <h2 className="text-2xl md:text-3xl font-extrabold font-poppins text-center mb-6 text-white tracking-tight drop-shadow-sm">Tech Stack</h2>
-          ft web applications and UI experiments that emphasize accessibility, performance and visual polish. Below are highlights from my work — open-source tools, product interfaces and prototypes that solve real problems.
+          t web applications and UI experiments that emphasize accessibility, performance and visual polish. Below are highlights from my work — open-source tools, product interfaces and prototypes that solve real problems.
         </p>
       </section>
       {/* Work Experience section */}
