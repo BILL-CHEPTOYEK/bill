@@ -87,6 +87,7 @@ export default function CitizenHomePage() {
         >
           Designing & building software that makes a difference
         </h2>
+       
       </section>
 
       {/* Enhanced Hero Welcome Section */}
@@ -94,12 +95,15 @@ export default function CitizenHomePage() {
         className="w-full flex flex-col items-center justify-center bg-blue-600 rounded-sm px-4 py-8 md:py-12 mb-12 mx-auto relative overflow-hidden"
         style={{ maxWidth: '1100px' }}
       >
-          <p
-          className="text-base md:text-lg font-inter text-center text-white font-normal leading-relaxed opacity-95 max-w-4xl mx-auto mb-0"
-        >
-          <h2 className="text-2xl md:text-3xl font-extrabold font-poppins text-center mb-6 text-white tracking-tight drop-shadow-sm">Tech Stack</h2>
-            pplications and UI experiments that emphasize accessibility, performance and visual polish. Below are highlights from my work — open-source tools, product interfaces and prototypes that solve real problems.
-        </p>
+         {/* Tech stack chips */}
+         <h2 className="text-2xl md:text-3xl font-extrabold font-poppins text-center mb-6 text-white tracking-tight drop-shadow-sm">Tech Stack</h2>
+        <div className="flex flex-wrap gap-3 justify-center mt-2">
+          {['Node.js', 'Express.js', 'React.js', 'Tailwind CSS', 'PostgreSQL', 'MongoDB', 'Docker', 'Django', '.NET Core', 'Flutter', 'Kotlin', 'AI/ML', 'Data Science'].map((tech) => (
+            <span key={tech} className="inline-flex items-center px-3 py-1.5 bg-white border border-gray-100 rounded-2xl shadow-sm text-sm font-semibold text-gray-800">
+              {tech}
+            </span>
+          ))}
+        </div>
       </section>
       {/* Work Experience section */}
       <section id="experience" className="w-full py-12 px-4 sm:px-6 bg-gray-50">
@@ -128,7 +132,7 @@ export default function CitizenHomePage() {
                   <div className="text-sm text-gray-600">Tech highlights</div>
                   <div className="mt-3 flex flex-wrap gap-2">
                     {['React', 'Node.js', 'PostgreSQL', 'Socket.io', 'Redis', 'Tailwind'].map(t => (
-                      <span key={t} className="px-2 py-1 bg-blue-50 text-blue-700 rounded text-xs font-medium">{t}</span>
+                      <span key={t} className="inline-flex items-center px-3 py-1.5 bg-white border border-gray-100 rounded-2xl shadow-sm text-xs font-semibold text-gray-800">{t}</span>
                     ))}
                   </div>
                 </div>
@@ -155,7 +159,7 @@ export default function CitizenHomePage() {
                   <div className="text-sm text-gray-600">Skills</div>
                   <div className="mt-3 flex flex-wrap gap-2">
                     {['React', 'Vue', 'Node.js', 'CI/CD'].map(t => (
-                      <span key={t} className="px-2 py-1 bg-blue-50 text-blue-700 rounded text-xs font-medium">{t}</span>
+                      <span key={t} className="inline-flex items-center px-3 py-1.5 bg-white border border-gray-100 rounded-2xl shadow-sm text-xs font-semibold text-gray-800">{t}</span>
                     ))}
                   </div>
                 </div>
