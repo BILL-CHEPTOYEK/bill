@@ -12,7 +12,7 @@ function AppRoutes() {
       <Navbar />
       <Routes>
         <Route path="/" element={<CitizenHomePage />} />
-        {/* Add About, Projects, Contact pages as needed */}
+        {/* Add about, Projects, Contact pages as needed */}
       </Routes>
     </>
   );
