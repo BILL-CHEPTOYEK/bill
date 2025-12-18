@@ -6,7 +6,7 @@ This repository contains my personal website built with React, Vite, and Tailwin
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (v18+ recommended)
+- node.js (v18+ recommended)
 - npm (v9+ recommended)
 
 ### Installation
